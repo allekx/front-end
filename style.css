@@ -65,13 +65,20 @@ main{
 }
 .perfil {
   width: 30%;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   display: flex;
   padding: 10px;
   align-items: center;
   gap: 0.5rem;
 }
-
 .perfil p {
   font-size: 10px;
+  color: #fff;
+}
+.homem-aranha {
+
+  position:absolute;
+  width: auto;
+  height: auto;
+  margin-top: -5.4rem;
 }
