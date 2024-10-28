@@ -12,7 +12,7 @@ body {
 }
 main{
   background: #0a081b88;
-  width: 100rem;
+  width: 90%;
   height: auto;
   display: grid;
   grid-template-columns: 0.1fr 1.5fr 0.5fr;
@@ -92,6 +92,10 @@ main{
   margin-top: 1rem;
   margin-left: 5rem;
 }
+.button-aranha {
+  display: none;
+  margin-left: 0.6rem;
+}
 .button-aranha,.button-aranha2 {
   position: absolute;
   width: auto;
@@ -101,6 +105,12 @@ main{
 }
 .button-aranha2 {
  margin-left: 20rem;
+}
+.button-aranha.active {
+  display: block;
+}
+.button-aranha2.active {
+  display: none;
 }
 .button-aranha:hover,.button-aranha2:hover {
   opacity: 100%;
