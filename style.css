@@ -43,12 +43,14 @@ main{
 }
 .projetos h1 {
   padding: 10px;
+  color: #fff;
 }
 .projetos img {
   padding: 10px;
 }
 .sobre h1 {
   padding: 10px;
+  color: #fff;
 }
 .sobre div {
   background: #fff;
@@ -75,10 +77,39 @@ main{
   font-size: 10px;
   color: #fff;
 }
-.homem-aranha {
+.aranha {
 
   position:absolute;
   width: auto;
   height: auto;
   margin-top: -5.4rem;
+}
+.boneco {
+  display: none;
+  position:absolute;
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.button-aranha,.button-aranha2 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin-top: 13rem;
+  opacity: 30%;
+}
+.button-aranha2 {
+ margin-left: 20rem;
+}
+.button-aranha:hover,.button-aranha2:hover {
+  opacity: 100%;
+
+}
+
+.boneco.active {
+  display: inline-block;
+}
+.aranha.active {
+  display: none;
 }
