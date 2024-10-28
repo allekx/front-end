@@ -62,5 +62,16 @@ main{
 .container2 {
   background-image: url(./img/fundo\ podio.png);
   background-repeat: no-repeat;
-  z-index: 10;
+}
+.perfil {
+  width: 30%;
+  margin-top: 5rem;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.perfil p {
+  font-size: 10px;
 }
