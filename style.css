@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: none;
+}
+
+body {
+  background-image: url(./img/byyy.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  background: #0A081B;
+  opacity: 50%;
+  width: 100rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 1fr;
+  border-radius: 30px;
+  padding: 10px;
+}
+.header {
+  background: red;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container {
+  background: red;
+}
